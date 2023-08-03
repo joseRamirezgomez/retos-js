@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    height: 100vh;
+    background: rgba(3, 3, 75, 0.995);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: rgb(255, 255, 255);
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#nav-responsive li{
+    list-style: none;
+}
+#nav-responsive a {
+    text-decoration: none;
+}
+nav {
+    display: none;
+}
+nav.responsive {
+    display: block;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    background-color: #252a2e56;
+    width: 180px;
+    height: 250px;
+}
+nav.responsive ul {
+    display: block !important;
+  }
+  
+  nav.responsive ul li {
+    align-items: center;
+    padding: 10px 0;
+  }
+.seleccion {
+    cursor: pointer;
+}
